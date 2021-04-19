@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cp{
+  cursor: pointer !important;
+}
+
+.font-12{
+  font-size: 12px !important;
+}
+
+.font-13{
+  font-size: 13px !important;
+}
+
+.font-14{
+  font-size: 14px !important;
+}
+
+.font-18{
+  font-size: 18px !important;
+}
+
+.bg-black{
+background-color: #1b1b1b !important;
+}

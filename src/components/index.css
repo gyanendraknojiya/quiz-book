@@ -1,0 +1,61 @@
+.addNewQuiz {
+  /* background-color: #394348; */
+  width: calc(100vw - 180px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+
+  font-family: "Lato", sans-serif;
+  background-position: center;
+  /* background-size: cover; */
+  background-color: rgb(57, 67, 72);
+}
+
+@media screen and (max-width: 500px) {
+  .addNewQuiz {
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+  }
+}
+
+.ThinkingGirl-logo {
+  position: absolute;
+  bottom: 0;
+}
+
+.QuizImage {
+  position: absolute;
+  top: 60px;
+}
+.quiz_details {
+  z-index: 1;
+  width: 0px;
+  max-width: 320px;
+  text-align: center;
+  animation: quiz_details 0.1s linear forwards;
+}
+
+@keyframes quiz_details {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.addQuestions {
+  max-width: 450px;
+  width: 100%;
+  z-index: 1;
+}
+
+.options-input{
+
+  max-height: 250px;
+  overflow-y: auto;
+}
