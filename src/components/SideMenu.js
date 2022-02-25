@@ -14,9 +14,9 @@ import {
   faTrophy,
 } from "@fortawesome/free-solid-svg-icons";
 
-const SideMenu = ({viewMode, setViewMode,  viewMode2 ,setViewMode2, currentUser}) => {
+const SideMenu = ({viewMode, setViewMode,  viewMode2 ,setViewMode2, currentUser, show}) => {
   return (
-    <div className=" side-menu ">
+    <div className={`side-menu ${show && "d-block"}`}>
       <div className="p-3">
         <img src={Logo} alt="Logo" height="40px" />
         <span className="header-text">Quiz book</span>
